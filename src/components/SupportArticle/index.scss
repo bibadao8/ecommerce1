@@ -1,0 +1,30 @@
+.SupportArticle{
+    width: 483px;
+    .spImage{
+        height: 218px;
+        background-color: #b5b8c9;
+    }
+    .spBottom{
+        height: 100px;
+        background-color: #cee3e7;
+        .spTopic{
+            padding: 18px 20px 0px 24px;
+            font-weight: 600;
+            font-size: 25px;
+        }
+    }
+    .spImage{
+        width: inherit;
+        .coverImage{
+            width: inherit;
+            height: inherit;
+            object-fit: contain ;
+            object-position: center; 
+        }
+    }
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.089);
+}
+.SupportArticle:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

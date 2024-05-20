@@ -1,0 +1,77 @@
+.SmallCard{
+    position: relative;
+    width: 211px;
+    height: 388px;
+    background-color: #f6fcff;
+    padding: 16px;
+    padding-top: 13px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+    .SalePercent{
+        position: absolute;
+        padding: 4px 5px 4px 5px;
+        border-radius: 7px;
+        right: 3%;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+    }
+    .imageContainer{
+        margin-top: 10px;
+        background-color: white;
+        width: 212px;
+        height: 192px;
+        border-radius: 8px;
+        box-shadow: 0px 0px  2px #000000;
+        .productImage{
+            width: inherit;
+            height: inherit;
+            object-fit: contain ;
+            object-position: center; 
+        }
+    }
+    .productName{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 14.46px;
+        height: 28px;
+        overflow: hidden; /* Ẩn phần vượt quá khỏi giới hạn */
+        text-overflow: ellipsis; /* Hiển thị dấu ba chấm cho phần vượt quá */
+    }
+    .productSummary{
+        height: 70px;
+        font-size: 16px;
+        margin-top: 10px;
+        overflow: hidden; /* Ẩn phần vượt quá khỏi giới hạn */
+        text-overflow: ellipsis; /* Hiển thị dấu ba chấm cho phần vượt quá */
+        word-wrap: break-word; /* Cho phép các từ được ngắt khi cần */
+    }
+    .currentPrice{
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 5px;
+        color: #b92727;
+    }
+    .defaultPrice{
+        font-size: 16px;
+        color: #939CA3;
+        text-decoration: line-through;
+        margin-top: 8px;
+    }
+    transition: .1s;
+    .outOfStock{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .comingSoon{
+        font-size: 24px;
+        font-weight: 600;
+        color: #ff9f22;
+    }
+}
+.SmallCard:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.166);
+    transform: translateY(-5px);
+
+}

@@ -1,0 +1,72 @@
+
+.Footer{
+    text-align: center;
+
+    width: 100%;
+    .footerTop{
+        background-color: #5786BD;
+        color: white;
+        display: flex;
+        padding: 30px 0px 50px 320px;
+        gap: 100px;
+        .shop{
+            position: inherit;
+            width: inherit;
+        }
+        .topic{
+            font-size: 24px;
+            font-weight: 700;
+            font-style: bold;
+            text-align: left;
+        }
+        .allItems{
+            text-align: left;
+            list-style-type: none;
+            font-size: 20px;
+            padding-left: 0;
+            li{
+                margin-bottom: 15px;
+            }
+            li:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .allLogos{
+            display: flex;
+            padding-top: 10px;
+            gap: 20px;
+            .smallLogo{
+                font-size: 40px;
+                transition: .1s;
+            }
+            .smallLogo:hover{
+                cursor: pointer;
+                transform: scale(1.2, 1.2);
+            }
+        }
+    }
+    .footerBottom{
+        background-color: #24466F;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 5px 0px 5px 870px
+        
+    }
+}
+.logo{
+    position: inherit;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+    transition: 0.2s ease-out;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}

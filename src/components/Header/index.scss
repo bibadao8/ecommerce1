@@ -1,0 +1,137 @@
+.Header{
+    color: white;
+    .headerTop{
+        box-shadow: 0px -1px 5px black inset;
+        background-color: #24466F;
+        height: 50px;
+        padding: 5px 0px 5px 210px;
+        display: flex;
+        align-items: center;
+        .searchBar{
+            display: flex;
+            align-items: center;
+            .bar{
+                font-size: 20px;
+                margin: 0px 100px 0px 200px;
+                border-radius: 5px;
+                border-style: none;
+                padding:0px 0px 0px 10px;
+                width: 695px;
+                height: 35px;
+            }
+            .searchIcon{
+                position: absolute;
+                margin-left: 870px;
+                border-radius: 10px;
+                transition: 0.1s;
+            }
+            .searchIcon:hover{
+                cursor: pointer;
+                transform: scale(1.2,1.2);
+            }
+
+        }
+        .topButton{
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+            gap: 8px;
+            margin-right: 20px;
+            transition: 0.1s;
+            height: 50px;
+
+        }
+        .topButton:hover{
+            cursor: pointer;
+            transform: scale(1.2,1.2);
+            background-color: #27638b;
+        }
+        
+    }
+    .headerBottom{
+        
+        background-color: #4879B4;
+        height: 50px;
+        padding: 0px 300px 0px 450px;
+        display: flex;
+        gap: 100px;
+        align-items: center; 
+        font-size: 24px;
+        .productDropdown{
+            .trigger{
+                font-weight: 600;
+                display: flex ;
+                align-items: center;
+                gap: 20px;
+                padding: 0px 20px 0px 20px;
+                height: 50px;
+                .upArrow{
+                    transition: 0.2s;
+                }
+                .rotate{
+                    transition: .2s;
+                    transform: rotate(180deg);
+                }
+            }
+            .triggerStay{
+                background-color: #A2CDE5;
+                color: black;
+            }
+            .trigger:hover{
+                cursor: pointer;
+                background-color: #A2CDE5;
+            }
+            .dropDown{
+                position: absolute;
+                background-color: rgb(255, 255, 255);
+                color: black;
+                display: none;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+                z-index: 11;
+                .product{
+                    width: 200px;
+                    padding: 10px 10px 10px 20px;
+                    font-weight: 600;
+                }
+                .product:hover{
+                    cursor: pointer;
+                    color: rgb(249, 249, 249);
+                    background-color: #405087;
+                }
+            }
+            .trigger:hover + .dropDown,
+            .dropDown:hover {
+                display: block;
+            }
+        }
+        .otherButtons{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            .linkButton{
+                color: inherit;
+                padding: 10px;
+                text-decoration: inherit;
+            }
+            .linkButton:hover{
+                color: rgb(0, 0, 0);
+                background-color: #a7daec;
+            }
+
+        }
+    }
+}
+.logo{
+    position: inherit;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 600;
+    color: inherit;
+    text-decoration: inherit;
+    transition: 0.2s ease-out;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}

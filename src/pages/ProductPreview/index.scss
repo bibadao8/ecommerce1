@@ -1,0 +1,182 @@
+.ProductPreview {
+  display: flex;
+  align-items: flex-start;
+  padding: 102px;
+
+  .productImageContainer {
+    flex: 1;
+    padding-right: 250px; /* Tạo khoảng cách giữa hình ảnh và thông tin sản phẩm */
+    margin-left: 400px; /* Dịch hình ảnh sang phải nhiều hơn */
+  }
+
+  .productImage {
+    max-width: 150%;
+    height: auto;
+    max-height: 3000px; /* Đặt chiều cao tối đa cho hình ảnh */
+  }
+
+  .productInfo {
+    flex: 2;
+    padding-left: 40px; /* Thêm padding để dịch sang phải hơn */
+    max-width: 50%; /* Giới hạn kích thước của thông tin sản phẩm */
+  }
+
+  .productName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .productDescription {
+    margin-bottom: 10px;
+    max-width: 80%;
+  }
+
+  .productPrice {
+    font-weight: 500;
+    color: #cb1c22;
+    margin-right: 10px;
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 80;
+  }
+
+  .original-price {
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: grey;
+  }
+
+  .product-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 80%;/* Giảm kích thước của phần chi tiết sản phẩm */
+
+    ul {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .product-buttons {
+    margin-top: 20px;
+    
+    .btn {
+      margin-bottom: 10px;
+    }
+  }
+
+  .product-stock,
+  .product-rating {
+    margin-top: 10px;
+  }
+}
+
+.st-pd-btn .btn-full {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.st-pd-btn .btn {
+  cursor: pointer;
+}
+
+.btn-xl {
+  padding: 10px 32px;
+  font-size: 18px;
+  line-height: 14px;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #cb1c22;
+  outline: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 14px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button, input[type=button] {
+  width: auto;
+  overflow: visible;
+}
+
+button, input, select, textarea {
+  margin: 0;
+}
+
+.clickable, button, input[type=button], input[type=file], input[type=submit], label {
+  cursor: pointer;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.productImageOverlay {
+  position: absolute;
+  bottom: 150;
+  left: 450;
+  width: 100%;
+  padding: 5px 10px; /* Khoảng cách giữa các phần tử */
+  display: flex; /* Sử dụng flexbox để các phần tử con nằm cạnh nhau */
+  justify-content: flex; /* Canh chỉnh các phần tử con theo chiều ngang */
+}
+
+.productOg,
+.productShipping {
+  color: black; /* Màu chữ */
+  font-size: 20px;
+  margin-right: 105px;
+}
+
+.productOriginal {
+  position: absolute;
+  bottom: 150;
+  left: 450;
+  width: 100%;
+  padding: 50px 10px; /* Khoảng cách giữa các phần tử */
+  display: flex; /* Sử dụng flexbox để các phần tử con nằm cạnh nhau */
+  justify-content: flex; /* Canh chỉnh các phần tử con theo chiều ngang */
+}
+.productHelp,
+.productWarranty {
+  color: black; /* Màu chữ */
+  font-size: 20px;
+
+  margin-right: 50px;
+}

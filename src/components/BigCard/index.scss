@@ -1,0 +1,63 @@
+.BigCard{
+    position: relative;
+    width: 255px;
+    height: 482px;
+    background-color: #ebe3dd;
+    padding: 23px;
+    padding-top: 13px;
+    border-radius: 7px;
+    .SalePercent{
+        position: absolute;
+        padding: 5px 7px 5px 7px;
+        border-radius: 7px;
+        right: 3%;
+        background-color: rgb(94, 21, 21);
+        color: white;
+        font-size: 15px;
+    }
+    .imageContainer{
+        margin-top: 10px;
+        background-color: white;
+        width: 255px;
+        height: 237px;
+        border-radius: 5px;
+        .productImage{
+            width: inherit;
+            height: inherit;
+            object-fit: contain ;
+            object-position: center; 
+        }
+    }
+    .productName{
+        font-size: 22px;
+        height: 50px;
+        overflow: hidden;
+        font-weight: 700;
+        margin-top: 14.46px;
+    }
+    .productSummary{
+        height: 93px;
+        font-size: 20px;
+        margin-top: 11px;
+        overflow: hidden;
+    }
+    .currentPrice{
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 10px;
+        color: #b92727;
+    }
+    .defaultPrice{
+        font-size: 20px;
+        color: #939CA3;
+        text-decoration: line-through;
+        margin-top: 8px;
+    }
+    transition: .15s;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.55);
+}
+.BigCard:hover{
+    cursor: pointer;
+    transform: translateY(-6px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.814);
+}

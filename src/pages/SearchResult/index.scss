@@ -1,0 +1,92 @@
+.SearchResult{
+    padding: 0px 120px 30px 216px;
+    .SearchResult-Top{
+        .foundInfo{
+            margin-left: 11px;
+            font-size: 26px;
+            font-weight: 600;
+            .special{
+                font-size: 32px;
+                color: rgb(255, 54, 54);
+            }
+            .special_2{
+                position: absolute;
+                right: 10%;
+                color: rgb(151, 66, 0);
+                font-size: 38px;
+            }
+        }
+        .popularFilters{
+            margin: 17px 0px 0px 34px;
+            display: flex;
+            gap: 28px;
+            .filterButton{
+                font-weight: 500;
+                font-size: 18px;
+                padding: 8px 15px 8px 15px;
+                background-color: rgb(245, 252, 255);
+                border-style: none;
+                border-radius: 5px;
+            }
+            .filterButton:hover{
+                cursor: pointer;
+                background-color: rgb(69, 69, 111);
+                color: white;
+            }
+        }
+
+    }
+    .SearchResult-Bottom{
+        margin: 16px 0px 0px 0px;
+        padding: 23px 0px 40px 50px;
+        background-color: white;
+        display: flex;
+        gap: 30px;
+        .noResultContainer{
+            margin-left: 500px;
+        }
+        .allFilters{
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            min-width: 200px; 
+            .filterTopic{
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+            .allBox{
+                font-size: 18px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                .singleBox{
+                    display: flex;
+                    gap: 11px;
+                    .custom-checkbox{
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+            }
+        }
+        .allSearchProducts{
+            display: flex;
+            flex-wrap: wrap; /* Cho phép các phần tử con tự động xuống dòng khi không đủ không gian */
+            gap: 10px; /* Khoảng cách giữa các component */
+        }
+    }
+    .moreProduct{
+        margin: 17px 0px 0px 773px;
+        background-color: white;
+        padding: 8.5px 12px 8.5px 12px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: .1s;
+    }
+    .moreProduct:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}

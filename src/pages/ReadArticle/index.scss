@@ -1,0 +1,32 @@
+.ReadArticle {
+    padding: 10px 400px 38px 450px;
+    margin: 0 auto; // Căn giữa bài báo
+    .articleImageContainer{
+        display: flex;
+        justify-content: center; /* Căn giữa theo chiều ngang */
+        align-items: center; /* Căn giữa theo chiều dọc */
+        background-color: rgb(145, 188, 201);
+        .articleImage{
+            height: 300px;
+        }
+    }
+    .title{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .author{
+        font-size: 20px;
+        margin-top: 10px;
+        .publishedDate{
+            color: #777; // Màu chữ cho thông tin bổ sung
+        }
+    }
+    .content{
+        font-size: 27px;
+        margin-top: 30px;
+    }
+
+    /* Thêm một đường kẻ dưới mỗi bài báo */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px; // Khoảng cách dưới đường kẻ
+}

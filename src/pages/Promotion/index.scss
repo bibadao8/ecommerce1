@@ -1,0 +1,98 @@
+.A8-icon,
+.A7-icon {
+  height: 428px;
+  width: 756px;
+  position: absolute;
+  margin: 0 !important;
+  top: 237px;
+  left: 214px;
+  object-fit: cover;
+}
+.A7-icon {
+  width: 711px;
+  left: 992px;
+}
+.A6-icon,
+.A5-icon,
+.A4-icon,
+.A3-icon,
+.A2-icon,
+.A1-icon {
+  height: 363px;
+  width: 472px;
+  position: absolute;
+  margin: 0 !important;
+  top: 706px;
+  left: 214px;
+  object-fit: cover;
+}
+.A5-icon,
+.A4-icon,
+.A3-icon,
+.A2-icon,
+.A1-icon {
+  width: 474px;
+  left: 708px;
+}
+.A4-icon,
+.A3-icon,
+.A2-icon,
+.A1-icon {
+  width: 487px;
+  left: 1204px;
+}
+.A3-icon,
+.A2-icon,
+.A1-icon {
+  height: 396px;
+  width: 474px;
+  top: 1110px;
+  left: 214px;
+}
+.A2-icon,
+.A1-icon {
+  left: 710px;
+}
+.A1-icon {
+  width: 487px;
+  left: 1206px;
+}
+.A1-icon,
+.A2-icon,
+.A3-icon,
+.A4-icon,
+.A5-icon,
+.A6-icon,
+.A7-icon,
+.A8-icon {
+  transition: transform 0.3s ease;
+}
+
+.A1-icon:hover,
+.A2-icon:hover,
+.A3-icon:hover,
+.A4-icon:hover,
+.A5-icon:hover,
+.A6-icon:hover,
+.A7-icon:hover,
+.A8-icon:hover {
+  transform: scale(1.05); 
+  cursor: pointer; 
+}
+.trang-khuyn-mi {
+  width: 100%;
+  height: 1600px;
+  position: relative;
+  background-color: #ececec;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 237px 0;
+  box-sizing: border-box;
+  gap: 41px 20px;
+  line-height: normal;
+  letter-spacing: normal;
+}

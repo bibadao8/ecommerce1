@@ -1,0 +1,23 @@
+.Breadcrumbs{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 24px 0px 0px 220px;
+    .breadcrumbs{
+        display: flex;
+        list-style-type: none;
+        padding-left: 0;
+
+        .parentCrumb{
+            text-decoration: none; /* Loại bỏ gạch ngang */
+            color: inherit; /* Sử dụng màu chữ mặc định */
+        }   
+        .parentCrumb:hover{
+            text-decoration: underline;
+        }
+
+        .selectedCrumb{
+            font-weight: 600;
+        }
+    }
+
+}

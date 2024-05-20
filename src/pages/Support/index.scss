@@ -1,0 +1,8 @@
+.Support{
+    padding: 12px 120px 30px 216px;
+    .allSPArticle{
+        display: flex;
+        flex-wrap: wrap; /* Cho phép các phần tử con tự động xuống dòng khi không đủ không gian */
+        gap: 20px; /* Khoảng cách giữa các component */
+    }
+}

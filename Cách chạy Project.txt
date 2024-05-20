@@ -1,0 +1,21 @@
+Các ông tìm hiểu thêm về github, lập tài khoản và tạo nhánh riêng để code
+
+        ========     Setup Project     ======== 
+1. Mở github vào project ecommerce
+2. Nhấn nút "<> Code" và chọn "Download ZIP"
+3. Giải nén folder "ecommerce", mở Visual Studio Code và mở folder "ecommerce"
+4. Mở Terminal ở góc trái trên cùng: Terminal => New Terminal
+5. Gõ "npm install" để tải các gói tài nguyên cần thiết cho project
+6. Gõ "npm start" để chạy live project, nếu giống video "Demo.mkv" trong thư mục ecommerce thì được
+7. Đi đến trang cần code bằng cách thêm đường dẫn trên thanh URL
+VD: Trang Cart thì thêm "cart" vào sau "http://localhost:3000/" => "http://localhost:3000/cart"
+Xem file "src/App.js" để biết các từ đường dẫn
+
+        ========     Code frontend      ========
+1. Mở thư mục trong đường dẫn "ecommerce/src/pages"
+2. Chọn thư mục trang muốn code, trong đó sẽ có hai file index.jsx và index.scss
+3. Code nội dung trong index.jsx (giống html)
+4. Code thiết kế trong index.scss (giống css)
+
+
+
